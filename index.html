@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Penjelasan Lengkap Cara Kerja AC | Tonton Video Ini | FRION</title>
+    <meta name="description" content="Tonton penjelasan sederhana dalam video ini untuk memahami bagaimana cara kerja AC di rumah Anda. Dipersembahkan oleh FRION, spesialis AC Anda.">
+    <meta name="keywords" content="video ac, cara kerja ac, tips ac, edukasi ac, frion, service ac">
+
+    <meta name="google-site-verification" content="KODE_UNIK_GSC_UNTUK_HALAMAN_VIDEO_INI" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .video-wrapper {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+        }
+        .video-wrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        #mute-btn {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 10;
+            background-color: rgba(0, 0, 0, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #mute-btn:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        #mute-btn svg {
+            width: 24px;
+            height: 24px;
+            color: white;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+    <header class="bg-gray-900/80 backdrop-blur-sm sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <h1 class="text-3xl font-extrabold text-blue-400">FRION</h1>
+            <a href="https://wa.me/62881010050528?text=Halo%20Frion%20AC,%20saya%20punya%20pertanyaan%20seputar%20AC." target="_blank" class="bg-blue-500 hover:bg-blue-600 font-bold py-2 px-5 rounded-full transition duration-300">
+                Hubungi Kami
+            </a>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-6 py-12 md:py-20">
+        <div class="max-w-4xl mx-auto">
+            
+            <div class="text-center mb-8">
+                <h2 class="text-4xl md:text-5xl font-extrabold leading-tight text-white">
+                    Bagaimana Sebenarnya Cara Kerja AC?
+                </h2>
+                <p class="mt-4 text-lg text-gray-300">
+                    Tonton video singkat di bawah ini untuk melihat penjelasan lengkapnya. Klik ikon speaker untuk menyalakan audio.
+                </p>
+            </div>
+
+            <div class="rounded-lg shadow-2xl overflow-hidden border-4 border-blue-500/50 relative">
+                <div class="video-wrapper">
+                    <div id="player"></div> <!-- Player YouTube akan dimuat di sini -->
+                </div>
+                <!-- Tombol Mute/Unmute Kustom -->
+                <button id="mute-btn" aria-label="Toggle Audio">
+                    <!-- Ikon Muted (Speaker Silang) -->
+                    <svg id="icon-muted" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 9.75 19.5 12m0 0 2.25 2.25M19.5 12l2.25-2.25M19.5 12l-2.25 2.25m-10.5-6L11 2.25a.75.75 0 0 1 1.28.53v18.44a.75.75 0 0 1-1.28.53l-4.25-4.25H6a2.25 2.25 0 0 1-2.25-2.25v-4.5A2.25 2.25 0 0 1 6 8.25h1.25Z" />
+                    </svg>
+                    <!-- Ikon Unmuted (Speaker Nyala) - tersembunyi awalnya -->
+                    <svg id="icon-unmuted" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hidden">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M11.25 4.5v15m0 0-4.25-4.25H6a2.25 2.25 0 0 1-2.25-2.25v-4.5A2.25 2.25 0 0 1 6 8.25h1.25L11.25 4.5Z" />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="mt-8 text-center text-gray-400 prose prose-invert max-w-none">
+                <p>Memahami cara kerja AC dapat membantu Anda melakukan perawatan dasar dan memilih unit yang tepat. Di FRION, kami tidak hanya melayani, tetapi juga senang berbagi pengetahuan agar AC Anda selalu dalam kondisi prima.</p>
+            </div>
+            
+        </div>
+    </main>
+
+    <section class="bg-gray-800 py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white">Punya Pertanyaan atau Masalah dengan AC Anda?</h2>
+            <p class="mt-4 text-lg text-gray-300 max-w-2xl mx-auto">
+                Tim ahli kami siap memberikan konsultasi gratis atau menjadwalkan kunjungan teknisi ke lokasi Anda.
+            </p>
+            <a href="https://wa.me/62881010050528?text=Halo%20Frion%20AC,%20saya%20sudah%20menonton%20video%20dan%20ingin%20berkonsultasi." target="_blank" class="mt-8 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-12 rounded-full text-xl transition duration-300 shadow-lg transform hover:scale-105">
+                Konsultasi Gratis Sekarang
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 FRION. Edukasi & Layanan AC Profesional.</p>
+        </div>
+    </footer>
+
+    <!-- YouTube IFrame Player API Script -->
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script>
+        let player;
+
+        // Fungsi ini akan dipanggil secara otomatis oleh API YouTube setelah script di atas selesai dimuat.
+        function onYouTubeIframeAPIReady() {
+            player = new YT.Player('player', {
+                height: '360',
+                width: '640',
+                videoId: 'U9fBDlvXXKE', // ID Video Anda
+                playerVars: {
+                    'autoplay': 1,       // Putar otomatis
+                    'controls': 0,       // Sembunyikan kontrol asli YouTube
+                    'rel': 0,            // Jangan tampilkan video terkait di akhir
+                    'showinfo': 0,       // Sembunyikan judul video
+                    'loop': 1,           // Ulangi video
+                    'playlist': 'U9fBDlvXXKE' // Diperlukan agar loop bekerja
+                },
+                events: {
+                    'onReady': onPlayerReady
+                }
+            });
+        }
+
+        // API akan memanggil fungsi ini saat pemutar video sudah siap.
+        function onPlayerReady(event) {
+            event.target.mute(); // Mulai video dalam keadaan Mute (Wajib untuk autoplay)
+            
+            const muteBtn = document.getElementById('mute-btn');
+            const iconMuted = document.getElementById('icon-muted');
+            const iconUnmuted = document.getElementById('icon-unmuted');
+
+            muteBtn.addEventListener('click', () => {
+                if (player.isMuted()) {
+                    player.unMute();
+                    iconMuted.classList.add('hidden');
+                    iconUnmuted.classList.remove('hidden');
+                } else {
+                    player.mute();
+                    iconMuted.classList.remove('hidden');
+                    iconUnmuted.classList.add('hidden');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
